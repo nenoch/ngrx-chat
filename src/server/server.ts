@@ -1,6 +1,6 @@
 import * as express from 'express';
 import { Application } from 'express';
-import { apiGetUserThreads } from './api/apiGetUserThreads';
+import { apiGetUserThreads } from "./api/apiGetUserThreads";
 const bodyParser = require('body-parser');
 
 const app: Application = express();
